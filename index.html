@@ -1,1 +1,22 @@
-novo index para treinar envio asdasda
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerenciador de Câmeras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Gerenciador de Câmeras</h1>
+  <section id="add-camera">
+    <input type="text" id="rtsp-url" placeholder="RTSP da câmera">
+    <button id="add-camera-btn">Adicionar câmera</button>
+  </section>
+  <section id="camera-grid" class="grid"></section>
+  <section id="broadcast">
+    <input type="text" id="rtmp-url" placeholder="URL RTMP da Monuv">
+    <button id="start-broadcast">Transmitir layout 2x2</button>
+    <button id="stop-broadcast" disabled>Parar transmissão</button>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
