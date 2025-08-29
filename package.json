@@ -1,0 +1,8 @@
+{
+  "name": "camera-manager",
+  "version": "1.0.0",
+  "description": "Gerenciador de Câmeras com Web Workers",
+  "scripts": {
+    "test": "echo 'No tests specified' && exit 0"
+  }
+}

@@ -1,1 +1,35 @@
-algum conteudo
+body {
+  font-family: sans-serif;
+  background: #222;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#add-camera, #broadcast {
+  margin: 1rem auto;
+}
+
+#camera-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 4px;
+  width: 80vw;
+  max-width: 1000px;
+  height: 60vh;
+  background: #000;
+  margin: 0 auto;
+}
+
+.camera {
+  position: relative;
+  background: #000;
+}
+
+.camera canvas {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
